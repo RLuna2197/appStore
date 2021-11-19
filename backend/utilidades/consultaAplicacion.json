@@ -1,0 +1,7 @@
+{
+    "selectAplicacion" : "SELECT * FROM tblaplicacion",
+    "insertAplicacion" : "INSERT INTO tblaplicacion (nombre, precio, descripcion, icono, instalada, app, calificacion, descargas, desarrollador, idCategoria) VALUES(?,?,?,?,?,?,?,?,?,?)",
+    "updateAplicacion" : "UPDATE tblaplicacion SET nombre=?, precio=?, descripcion=?, icono=?, instalada=?, app=?, calificacion=?, descargas=?, desarrollador=?, idCategoria=? WHERE codigo=?",
+    "deleteAplicacion" : "DELETE FROM tblaplicacion WHERE codigo=?",
+    "selectAplicacionByID" : "SELECT * FROM tblaplicacion WHERE idCategoria = ?"
+}

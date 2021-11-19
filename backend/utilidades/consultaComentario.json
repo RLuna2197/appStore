@@ -1,0 +1,6 @@
+{
+    "selectComentario": "SELECT * FROM tblcomentarioaplicacion",
+    "insertComentario": "INSERT INTO tblcomentarioaplicacion (comentario, calificacion, fecha, usuario, codigoAplicacion) VALUES(?,?,?,?,?)",
+    "updateComentario": "UPDATE tblcomentarioaplicacion SET comentario=?, calificacion=?, fecha=?, usuario=?, codigoAplicacion=? WHERE idImagen=?",
+    "deleteComentario": "DELETE FROM tblcomentarioaplicacion WHERE idImagen =?"
+}

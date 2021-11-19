@@ -1,0 +1,67 @@
+body {
+    padding-top: 5rem;
+    background-color: #EFEFEF !important;
+}
+.navbar{
+    background-color: #040707;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.navbar .navbar-brand img {
+    height: 20px;
+  }
+
+  .navbar .navbar-brand {
+    padding-top: 0;
+  }
+
+  .navbar .nav-link {
+    color: #F9F9F9 !important;
+  }
+
+  .navbar .button-collapse {
+    padding-top: 1px;
+  }
+
+ .navbar .navbar-brand img{
+    height: 40px;
+  }
+
+  /*Aplicaciones-Modal*/
+#app {
+    background-color: azure;
+    color: black;
+}
+
+#app>.card-body>span {
+    color: #FEB817;
+}
+
+#app:hover>.card-body>span {
+    color: #fff;
+}
+
+#app:hover {
+    background-color: #FEB817;
+    color: #fff;
+}
+
+.modal-body{
+  height: 500px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+#conta {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+#iconoview {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
